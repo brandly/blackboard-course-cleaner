@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  },
+  "scripts": {
+    "build": "uglifyjs --compress --mangle -- course-cleaner.js > course-cleaner.min.js"
+  }
+}
